@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="hpDB-Web.config Connection String" description="hpDB Connection String used in web.config by the application to access the database." defaultValue="Server=tcp:huskypacks20200412111622dbserver.database.windows.net,1433;Initial Catalog=HuskyPacks_db;Persist Security Info=False;User ID=pranav;Password=Googibhag1!;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\prana\\source\\repos\\HuskyPacks\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='hpDB']/@connectionString" />
+  </parameter>
+</parameters>
